@@ -1,0 +1,2 @@
+# Facial-Emotion-Recognition
+I wanted to create my own FER program that works real time to further expand my knowledge on CNN, Data augmentation and Transfer Learning. Data is used from a kaggle competition, models architectures are purely my own using Keras  I have achieved 64% accuracy which I think is decent but there's space for improvement. I didn't work on face detection myself but my future goals are to implement face detection myself, work on real time recognition and Improve model's performance.
