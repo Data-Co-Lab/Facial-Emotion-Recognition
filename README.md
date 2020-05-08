@@ -1,2 +1,8 @@
 # Facial-Emotion-Recognition
-I wanted to create my own FER program that works real time to further expand my knowledge on CNN, Data augmentation and Transfer Learning. Data is used from a kaggle competition, models architectures are purely my own using Keras  I have achieved 64% accuracy which I think is decent but there's space for improvement. I didn't work on face detection myself but my future goals are to implement face detection myself, work on real time recognition and Improve model's performance.
+
+This project is about creating a real time facial emotion recognition. The dataset used in this project is the famous FER13 data which can be found on kaggle https://www.kaggle.com/nicolejyt/facialexpressionrecognition .
+Data contains 30k images of size 48 * 48 pixels, the models we used are based on pure experimentations and pretrained models.
+First model is a CNN architecture tuned based on experimentation, next we applied transfer learning in order to get better results and accuracy models such as DenseNet, EfficientNet, MobileNet, ResNet, Inception were used. Finally we used data augmentation to reach an accuracy of 68%. Much more research and improvements can be done to reach better accuracy.
+As for face recognition and real time prediction we are using OpenCV library which provides an accurate facedetector.
+
+
